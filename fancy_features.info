@@ -1,0 +1,4 @@
+name = Fancy Features
+description = TODO: Add description
+core = 7.x
+package = Fancy

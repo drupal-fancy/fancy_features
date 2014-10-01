@@ -1,0 +1,16 @@
+name = Fancy Migrate
+description = Provides some demo fancy demo content.
+core = 7.x
+dependencies[] = migrate
+dependencies[] = migrate_extras
+package = Fancy
+
+files[] = fancy_migrate.migrate.inc
+files[] = migrations/includes/page.inc
+files[] = migrations/includes/section.inc
+files[] = migrations/includes/content/headline.inc
+files[] = migrations/includes/content/image.inc
+files[] = migrations/includes/content/map.inc
+files[] = migrations/includes/content/rich_text.inc
+files[] = migrations/includes/content/text.inc
+files[] = migrations/includes/media/image.inc
