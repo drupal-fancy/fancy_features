@@ -28,14 +28,14 @@ function fancy_config_fancy_grid_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'fancy_grid_grid_max_width';
-  $strongarm->value = '960px';
+  $strongarm->value = '1290px';
   $export['fancy_grid_grid_max_width'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'fancy_grid_grid_width';
-  $strongarm->value = '90%';
+  $strongarm->value = '100%';
   $export['fancy_grid_grid_width'] = $strongarm;
 
   $strongarm = new stdClass();
