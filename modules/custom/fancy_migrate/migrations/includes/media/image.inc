@@ -7,7 +7,7 @@ class MediaImageMigration extends Migration {
     $this->description = t('Import of image media.');
 
     $this->source = new MigrateSourceCSV(
-      drupal_get_path('module', 'fancy_content') . '/migrations/import/media/images.csv',
+      drupal_get_path('module', 'fancy_migrate') . '/migrations/import/media/images.csv',
       array(),
       array('delimiter' => ',', 'header_rows' => 1)
     );
