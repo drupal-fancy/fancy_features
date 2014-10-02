@@ -8,7 +8,7 @@ class PageMigration extends Migration {
     $this->dependencies = array('Section');
 
     $this->source = new MigrateSourceCSV(
-      drupal_get_path('module', 'fancy_content') . '/migrations/import/pages.csv',
+      drupal_get_path('module', 'fancy_migrate') . '/migrations/import/pages.csv',
       array(),
       array('delimiter' => ',', 'header_rows' => 1)
     );

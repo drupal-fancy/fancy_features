@@ -7,7 +7,7 @@ class ContentRichTextMigration extends Migration {
     $this->description = t('Import of rich text contents.');
 
     $this->source = new MigrateSourceCSV(
-      drupal_get_path('module', 'fancy_content') . '/migrations/import/content/rich_text.csv',
+      drupal_get_path('module', 'fancy_migrate') . '/migrations/import/content/rich_text.csv',
       array(),
       array('delimiter' => ',', 'header_rows' => 1)
     );

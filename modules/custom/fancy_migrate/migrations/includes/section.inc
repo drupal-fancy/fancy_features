@@ -14,7 +14,7 @@ class SectionMigration extends Migration {
     );
 
     $this->source = new MigrateSourceCSV(
-      drupal_get_path('module', 'fancy_content') . '/migrations/import/sections.csv',
+      drupal_get_path('module', 'fancy_migrate') . '/migrations/import/sections.csv',
       array(),
       array('delimiter' => ',', 'header_rows' => 1)
     );

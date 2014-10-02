@@ -7,7 +7,7 @@ class ContentMapMigration extends Migration {
     $this->description = t('Import of map contents.');
 
     $this->source = new MigrateSourceCSV(
-      drupal_get_path('module', 'fancy_content') . '/migrations/import/content/maps.csv',
+      drupal_get_path('module', 'fancy_migrate') . '/migrations/import/content/maps.csv',
       array(),
       array('delimiter' => ',', 'header_rows' => 1)
     );

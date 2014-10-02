@@ -7,7 +7,7 @@ class ContentHeadlineMigration extends Migration {
     $this->description = t('Import of headline contents.');
 
     $this->source = new MigrateSourceCSV(
-      drupal_get_path('module', 'fancy_content') . '/migrations/import/content/headlines.csv',
+      drupal_get_path('module', 'fancy_migrate') . '/migrations/import/content/headlines.csv',
       array(),
       array('delimiter' => ',', 'header_rows' => 1)
     );
