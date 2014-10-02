@@ -27,7 +27,7 @@ class MediaImageMigration extends Migration {
     );
 
     $this->addFieldMapping('source_dir')
-      ->defaultValue(drupal_get_path('module', 'fancy_content') . '/migrations/import/media/images');
+      ->defaultValue(drupal_get_path('module', 'fancy_migrate') . '/migrations/import/media/images');
 
     $this->addFieldMapping('value', 'filename');
 
