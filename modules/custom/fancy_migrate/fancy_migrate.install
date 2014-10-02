@@ -9,7 +9,7 @@
  * Implements hook_install().
  */
 function fancy_migrate_install() {
-  $migrations = array(
+  /*$migrations = array(
     'MediaImage',
     'ContentHeadline',
     'ContentImage',
@@ -24,5 +24,5 @@ function fancy_migrate_install() {
   foreach ($migrations as $machine_name) {
     $migration =  Migration::getInstance($machine_name);
     $migration->processImport();
-  }
+  }*/
 }
