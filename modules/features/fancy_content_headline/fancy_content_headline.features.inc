@@ -25,7 +25,7 @@ function fancy_content_headline_eck_bundle_info() {
       'machine_name' => 'fancy_content_headline',
       'entity_type' => 'fancy_content',
       'name' => 'headline',
-      'label' => 'Headine',
+      'label' => 'Headline',
     ),
   );
   return $items;
