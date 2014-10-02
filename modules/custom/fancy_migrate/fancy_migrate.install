@@ -10,14 +10,14 @@
  */
 function fancy_migrate_install() {
   $migrations = array(
-    'MediaImageMigration',
-    'ContentTextMigration',
-    'ContentRichTextMigration',
-    'ContentMapMigration',
-    'ContentImageMigration',
-    'ContentHeadlineMigration',
-    'SectionMigration',
-    'PageMigration',
+    'MediaImage',
+    'ContentText',
+    'ContentRichText',
+    'ContentMap',
+    'ContentImage',
+    'ContentHeadline',
+    'Section',
+    'Page',
   );
 
   // Run all available migration.
@@ -26,4 +26,3 @@ function fancy_migrate_install() {
     $migration->processImport();
   }
 }
-
