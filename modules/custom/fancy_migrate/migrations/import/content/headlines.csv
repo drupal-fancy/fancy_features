@@ -1,3 +1,4 @@
-guid,headline
-headline_1,"Super fancy website. <small>- build with Drupal</small>"
-headline_2,"Drupal rocks!"
+guid,style,textcolor,headline
+headline_1,"headline-letterpress",,"Super fancy website. <small>- build with Drupal</small>"
+headline_2,"headline-bold",,"Drupal rocks!"
+headline_3,"headline-3d",,"Welcome to Fancy!"

@@ -27,5 +27,7 @@ class ContentHeadlineMigration extends Migration {
 
     $this->addFieldMapping('title', 'title')->defaultValue('');
     $this->addFieldMapping('field_headline', 'headline');
+    $this->addFieldMapping('field_fancy_style', 'style');
+    $this->addFieldMapping('field_fancy_textcolor', 'textcolor')->defaultValue('');
   }
 }
