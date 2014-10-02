@@ -11,18 +11,18 @@
 function fancy_migrate_install() {
   $migrations = array(
     'MediaImage',
-    'ContentText',
-    'ContentRichText',
-    'ContentMap',
-    'ContentImage',
     'ContentHeadline',
+    'ContentImage',
+    'ContentMap',
+    'ContentRichText',
+    'ContentText',
     'Section',
-    'Page',
+    'Page'
   );
 
-  // Run all available migration.
-  foreach ($migrations as $machine_name => $migration) {
-    $migration =  Migration::getInstance($operation);
+  // Run all demo content migration.
+  foreach ($migrations as $machine_name) {
+    $migration =  Migration::getInstance($machine_name);
     $migration->processImport();
   }
 }
