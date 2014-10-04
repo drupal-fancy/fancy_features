@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Main file of Fancy Features module.
+ */
+
+/**
+ * Implements hook_inline_entity_form_table_fields_alter().
+ */
+function fancy_features_inline_entity_form_table_fields_alter(&$fields, $context) {
+  // Remove title and type columns for our custom entity types.
+  if ($context['parent_entity_type'] == 'node' && ($context['entity_type'] == 'fancy_section' || $context['entity_type'] == 'fancy_content')) {
+    unset($fields['title']);
+    unset($fields['type']);
+  }
+}
