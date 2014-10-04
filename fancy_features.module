@@ -15,3 +15,13 @@ function fancy_features_inline_entity_form_table_fields_alter(&$fields, $context
     unset($fields['type']);
   }
 }
+
+/**
+ * Implements hook_field_widget_form_alter().
+ */
+function fancy_features_field_widget_form_alter(&$element, &$form_state, $context) {
+  // Add some CSS to the inline entity form widget.
+  if ($context['instance']['widget']['type'] == 'inline_entity_form' && $context['field']['settings']['target_type'] == 'fancy_section') {
+    drupal_add_css(drupal_get_path('module', 'fancy_features') . '/css/fancy-features.css');
+  }
+}
