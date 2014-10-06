@@ -346,7 +346,7 @@ function fancy_section_simple_field_default_field_instances() {
           'icon' => 0,
         ),
         'fancy_ds_2_fluid' => array(
-          'enable' => 1,
+          'enable' => 0,
           'hide_title' => 0,
           'icon' => 0,
         ),
@@ -356,7 +356,7 @@ function fancy_section_simple_field_default_field_instances() {
           'icon' => 0,
         ),
         'fancy_ds_2_stack_fluid' => array(
-          'enable' => 1,
+          'enable' => 0,
           'hide_title' => 0,
           'icon' => 0,
         ),
@@ -371,7 +371,7 @@ function fancy_section_simple_field_default_field_instances() {
           'icon' => 0,
         ),
         'fancy_ds_3_stack_fluid' => array(
-          'enable' => 1,
+          'enable' => 0,
           'hide_title' => 0,
           'icon' => 0,
         ),
@@ -389,6 +389,7 @@ function fancy_section_simple_field_default_field_instances() {
           'enable' => 0,
           'hide_title' => 0,
           'icon' => 0,
+        ),
         'teaser' => array(
           'enable' => 0,
           'hide_title' => 0,
@@ -396,6 +397,8 @@ function fancy_section_simple_field_default_field_instances() {
         ),
         'token' => array(
           'enable' => 0,
+          'hide_title' => 0,
+          'icon' => 0,
         ),
       ),
     ),

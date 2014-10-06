@@ -166,9 +166,9 @@ function fancy_section_responsive_field_default_field_instances() {
           'icon' => 0,
         ),
         'fancy_ds_2' => array(
-          'enable' => 1,
+          'enable' => 0,
           'hide_title' => 1,
-          'icon' => 8,
+          'icon' => 0,
         ),
         'fancy_ds_2_fluid' => array(
           'enable' => 0,
