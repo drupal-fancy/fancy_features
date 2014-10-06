@@ -11,10 +11,3 @@ features[variable][] = fancy_grid_compile_webservice
 features[variable][] = fancy_grid_grid_max_width
 features[variable][] = fancy_grid_grid_width
 features[variable][] = fancy_grid_layouts
-
-
-; Information added by drush on 2014-10-01
-version = "unknown"
-project = "fancy_kickstart"
-datestamp = "1412134881"
-

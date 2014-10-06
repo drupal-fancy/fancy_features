@@ -11,10 +11,3 @@ features[features_api][] = api:2
 features[field_base][] = field_fancy_rel_contents
 features[field_base][] = field_fancy_rel_sections
 features_exclude[dependencies][eck] = eck
-
-
-; Information added by drush on 2014-10-01
-version = "unknown"
-project = "fancy_kickstart"
-datestamp = "1412134881"
-

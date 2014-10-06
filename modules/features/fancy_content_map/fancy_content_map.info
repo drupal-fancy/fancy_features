@@ -245,10 +245,3 @@ features[variable][] = location_maplink_external
 features[variable][] = location_maplink_external_method
 features[variable][] = location_use_province_abbreviation
 features[variable][] = location_usegmap
-
-
-; Information added by drush on 2014-10-01
-version = "unknown"
-project = "fancy_kickstart"
-datestamp = "1412134881"
-

@@ -42,10 +42,3 @@ features[image][] = fancy_mobile
 features[image][] = fancy_tablet
 features[picture_mapping][] = fancy_picture
 features[variable][] = media_icon_base_directory
-
-
-; Information added by drush on 2014-10-01
-version = "unknown"
-project = "fancy_kickstart"
-datestamp = "1412134881"
-

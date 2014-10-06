@@ -21,10 +21,3 @@ features[variable][] = node_options_fancy_page
 features[variable][] = node_preview_fancy_page
 features[variable][] = node_submitted_fancy_page
 features_exclude[field_base][field_fancy_rel_sections] = field_fancy_rel_sections
-
-
-; Information added by drush on 2014-10-01
-version = "unknown"
-project = "fancy_kickstart"
-datestamp = "1412134881"
-
