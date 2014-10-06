@@ -33,10 +33,3 @@ features[variable][] = field_split_config_fancy_section__responsive
 features_exclude[dependencies][entityreference] = entityreference
 features_exclude[dependencies][features] = features
 features_exclude[dependencies][inline_entity_form] = inline_entity_form
-
-
-; Information added by drush on 2014-10-01
-version = "unknown"
-project = "fancy_kickstart"
-datestamp = "1412134881"
-

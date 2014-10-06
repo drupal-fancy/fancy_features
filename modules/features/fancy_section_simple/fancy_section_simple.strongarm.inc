@@ -77,7 +77,7 @@ function fancy_section_simple_strongarm() {
         'custom_settings' => TRUE,
       ),
       'fancy_ds_4' => array(
-        'custom_settings' => FALSE,
+        'custom_settings' => TRUE,
       ),
     ),
     'extra_fields' => array(
@@ -124,6 +124,10 @@ function fancy_section_simple_strongarm() {
             'weight' => '1',
             'visible' => TRUE,
           ),
+          'fancy_ds_4' => array(
+            'weight' => '21',
+            'visible' => TRUE,
+          ),
         ),
         'field_fancy_rel_contents_2' => array(
           'default' => array(
@@ -164,6 +168,10 @@ function fancy_section_simple_strongarm() {
           ),
           'fancy_ds_4col' => array(
             'weight' => '2',
+            'visible' => TRUE,
+          ),
+          'fancy_ds_4' => array(
+            'weight' => '22',
             'visible' => TRUE,
           ),
         ),
@@ -208,6 +216,10 @@ function fancy_section_simple_strongarm() {
             'weight' => '3',
             'visible' => TRUE,
           ),
+          'fancy_ds_4' => array(
+            'weight' => '23',
+            'visible' => TRUE,
+          ),
         ),
         'field_fancy_rel_contents_4' => array(
           'default' => array(
@@ -250,6 +262,10 @@ function fancy_section_simple_strongarm() {
             'weight' => '5',
             'visible' => FALSE,
           ),
+          'fancy_ds_4' => array(
+            'weight' => '24',
+            'visible' => FALSE,
+          ),
         ),
         'field_fancy_rel_contents_5' => array(
           'default' => array(
@@ -290,6 +306,10 @@ function fancy_section_simple_strongarm() {
           ),
           'fancy_ds_4col' => array(
             'weight' => '6',
+            'visible' => FALSE,
+          ),
+          'fancy_ds_4' => array(
+            'weight' => '25',
             'visible' => FALSE,
           ),
         ),

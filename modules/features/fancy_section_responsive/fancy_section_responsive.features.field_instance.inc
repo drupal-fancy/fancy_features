@@ -100,7 +100,7 @@ function fancy_section_responsive_field_default_field_instances() {
         ),
       ),
       'type' => 'inline_entity_form',
-      'weight' => 0,
+      'weight' => 1,
     ),
   );
 
@@ -162,51 +162,83 @@ function fancy_section_responsive_field_default_field_instances() {
       'view_modes' => array(
         'default' => array(
           'enable' => 1,
+          'hide_title' => 1,
+          'icon' => 0,
         ),
         'fancy_ds_2' => array(
-          'enable' => 0,
+          'enable' => 1,
+          'hide_title' => 1,
+          'icon' => 8,
         ),
         'fancy_ds_2_fluid' => array(
           'enable' => 0,
+          'hide_title' => 0,
+          'icon' => 0,
         ),
         'fancy_ds_2_stack' => array(
           'enable' => 0,
+          'hide_title' => 0,
+          'icon' => 0,
         ),
         'fancy_ds_2_stack_fluid' => array(
           'enable' => 0,
+          'hide_title' => 0,
+          'icon' => 0,
         ),
         'fancy_ds_3' => array(
           'enable' => 0,
+          'hide_title' => 0,
+          'icon' => 0,
         ),
         'fancy_ds_3_stack' => array(
           'enable' => 0,
+          'hide_title' => 0,
+          'icon' => 0,
         ),
         'fancy_ds_3_stack_fluid' => array(
           'enable' => 0,
+          'hide_title' => 0,
+          'icon' => 0,
         ),
         'fancy_ds_3_weighted' => array(
           'enable' => 0,
+          'hide_title' => 0,
+          'icon' => 0,
         ),
         'fancy_ds_4' => array(
           'enable' => 0,
+          'hide_title' => 0,
+          'icon' => 0,
         ),
         'fancy_grid_four_column' => array(
           'enable' => 1,
+          'hide_title' => 1,
+          'icon' => 0,
         ),
         'fancy_grid_three_column' => array(
           'enable' => 1,
+          'hide_title' => 1,
+          'icon' => 0,
         ),
         'fancy_grid_two_column' => array(
           'enable' => 1,
+          'hide_title' => 1,
+          'icon' => 0,
         ),
         'inline_entity_form_preview' => array(
           'enable' => 0,
+          'hide_title' => 0,
+          'icon' => 0,
         ),
         'teaser' => array(
           'enable' => 0,
+          'hide_title' => 0,
+          'icon' => 0,
         ),
         'token' => array(
           'enable' => 0,
+          'hide_title' => 0,
+          'icon' => 0,
         ),
       ),
     ),
@@ -214,8 +246,8 @@ function fancy_section_responsive_field_default_field_instances() {
       'active' => 0,
       'module' => 'view_mode_selector',
       'settings' => array(),
-      'type' => 'view_mode_selector_select',
-      'weight' => 1,
+      'type' => 'view_mode_selector_radios',
+      'weight' => 0,
     ),
   );
 

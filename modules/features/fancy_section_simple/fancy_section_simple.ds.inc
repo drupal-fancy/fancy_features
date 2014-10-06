@@ -26,7 +26,9 @@ function fancy_section_simple_ds_layout_settings_info() {
     'fields' => array(
       'field_fancy_rel_contents' => 'ds_content',
     ),
-    'classes' => array(),
+    'classes' => array(
+      'layout_class' => array(),
+    ),
     'wrappers' => array(
       'ds_content' => 'div',
     ),
@@ -390,7 +392,9 @@ function fancy_section_simple_ds_layout_settings_info() {
       'field_fancy_rel_contents_2' => 'third',
       'field_fancy_rel_contents_3' => 'fourth',
     ),
-    'classes' => array(),
+    'classes' => array(
+      'layout_class' => array(),
+    ),
     'wrappers' => array(
       'first' => 'div',
       'second' => 'div',
