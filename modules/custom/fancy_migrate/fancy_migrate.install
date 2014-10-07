@@ -9,20 +9,24 @@
  * Implements hook_install().
  */
 function fancy_migrate_install() {
-  /*$migrations = array(
-    'MediaImage',
-    'ContentHeadline',
-    'ContentImage',
-    'ContentMap',
-    'ContentRichText',
-    'ContentText',
-    'Section',
-    'Page'
-  );
+  if (module_exists('migrate')) {
+    $migrations = array(
+      'MediaImage',
+      'ContentHeadline',
+      'ContentImage',
+      'ContentMap',
+      'ContentRichText',
+      'ContentText',
+      'Section',
+      'Page',
+    );
 
-  // Run all demo content migration.
-  foreach ($migrations as $machine_name) {
-    $migration =  Migration::getInstance($machine_name);
-    $migration->processImport();
-  }*/
+    // Register all migrations.
+    migrate_get_module_apis(TRUE);
+
+    foreach ($migrations as $migration_name) {
+      $migration = Migration::getInstance($migration_name);
+      $migration->processImport();
+    }
+  }
 }
