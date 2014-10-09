@@ -15,6 +15,7 @@ features[eck_bundle][] = fancy_content_ctools_content
 features[features_api][] = api:2
 features[field_base][] = field_fancy_ctools_content
 features[field_instance][] = fancy_content-ctools_content-field_fancy_ctools_content
+features[user_permission][] = eck view fancy_content ctools_content entities
 features[variable][] = auto_entitylabel_fancy_content_ctools_content
 features[variable][] = auto_entitylabel_pattern_fancy_content_ctools_content
 features[variable][] = auto_entitylabel_php_fancy_content_ctools_content
