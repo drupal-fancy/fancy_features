@@ -8,6 +8,7 @@ dependencies[] = eck
 dependencies[] = fancy_core
 dependencies[] = fancy_grid
 dependencies[] = fancy_grid_ds
+dependencies[] = field_split
 dependencies[] = strongarm
 dependencies[] = view_mode_selector
 features[ctools][] = ds:ds:1
