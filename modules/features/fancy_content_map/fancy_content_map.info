@@ -19,6 +19,7 @@ features[eck_bundle][] = fancy_content_map
 features[features_api][] = api:2
 features[field_base][] = field_fancy_location
 features[field_instance][] = fancy_content-map-field_fancy_location
+features[user_permission][] = eck view fancy_content map entities
 features[variable][] = auto_entitylabel_fancy_content_map
 features[variable][] = auto_entitylabel_pattern_fancy_content_map
 features[variable][] = auto_entitylabel_php_fancy_content_map
