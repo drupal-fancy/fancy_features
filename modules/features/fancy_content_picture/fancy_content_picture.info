@@ -26,6 +26,7 @@ features[eck_bundle][] = fancy_content_picture
 features[features_api][] = api:2
 features[field_base][] = field_fancy_picture
 features[field_instance][] = fancy_content-picture-field_fancy_picture
+features[user_permission][] = eck view fancy_content picture entities
 features[variable][] = auto_entitylabel_fancy_content_picture
 features[variable][] = auto_entitylabel_pattern_fancy_content_picture
 features[variable][] = auto_entitylabel_php_fancy_content_picture
