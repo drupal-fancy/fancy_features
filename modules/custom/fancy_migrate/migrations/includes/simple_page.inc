@@ -1,10 +1,10 @@
 <?php
 
-class SectionMigration extends Migration {
+class SimplePageMigration extends Migration {
   public function __construct() {
     parent::__construct();
 
-    $this->description = t('Import of sections.');
+    $this->description = t('Import of simple pages.');
     $this->dependencies = array(
       'ContentImage',
       'ContentHeadline',
@@ -14,28 +14,27 @@ class SectionMigration extends Migration {
     );
 
     $this->source = new MigrateSourceCSV(
-      drupal_get_path('module', 'fancy_migrate') . '/migrations/import/sections.csv',
+      drupal_get_path('module', 'fancy_migrate') . '/migrations/import/simple_pages.csv',
       array(),
       array('delimiter' => ',', 'header_rows' => 1)
     );
 
-    $this->destination = new MigrateDestinationEntityAPI('fancy_section', 'responsive');
+    $this->destination = new MigrateDestinationNode('fancy_simple_page');
 
     //Source and destination relation for rollbacks
     $this->map = new MigrateSQLMap(
       $this->machineName,
       array(
         'guid' => array(
-          'type' => 'varchar',
-          'length' => 255,
+          'type' => 'int',
+          'unsigned' => TRUE,
           'not null' => TRUE,
         )
       ),
-      MigrateDestinationEntityAPI::getKeySchema('fancy_section', 'responsive')
+      MigrateDestinationNode::getKeySchema()
     );
 
-    $this->addFieldMapping('title')->defaultValue('');
-    $this->addFieldMapping('field_fancy_view_mode_selector', 'view mode')->defaultValue('default');
+    $this->addFieldMapping('title', 'title');
     $this->addFieldMapping('field_fancy_rel_contents', 'contents')
       ->separator(',')
       ->sourceMigration(array(
@@ -44,8 +43,11 @@ class SectionMigration extends Migration {
         'ContentMap',
         'ContentRichText',
         'ContentText',
-    ));
+      ));
 
-    $this->addUnmigratedDestinations(array('uid', 'created', 'changed'));
+    $this->addUnmigratedDestinations(array('uid', 'created', 'changed',
+      'status', 'promote', 'sticky', 'revision', 'log', 'language',
+      'tnid', 'translate', 'revision_uid', 'is_new', 'path', 'comment', 'pathauto'));
+
   }
 }

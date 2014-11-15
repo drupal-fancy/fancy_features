@@ -10,6 +10,9 @@ function fancy_migrate_migrate_api() {
       'Page' => array(
         'class_name' => 'PageMigration',
       ),
+      'SimplePage' => array(
+        'class_name' => 'SimplePageMigration',
+      ),
       'Section' => array(
         'class_name' => 'SectionMigration',
       ),

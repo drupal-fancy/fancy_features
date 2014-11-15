@@ -8,6 +8,7 @@ package = Fancy
 files[] = fancy_migrate.migrate.inc
 files[] = migrations/includes/page.inc
 files[] = migrations/includes/section.inc
+files[] = migrations/includes/simple_page.inc
 files[] = migrations/includes/content/headline.inc
 files[] = migrations/includes/content/image.inc
 files[] = migrations/includes/content/map.inc

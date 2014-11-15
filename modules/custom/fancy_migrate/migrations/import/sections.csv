@@ -5,4 +5,5 @@ guid,view mode,contents
 4,"default","headline_1"
 5,"default","rich_text_1"
 6,"default","headline_2"
-7,"default","map_1"
+7,"fancy_grid_three_column","image_3,text_2,image_4"
+8,"map_1"
