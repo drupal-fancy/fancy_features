@@ -46,6 +46,7 @@ function fancy_simple_page_field_default_field_instances() {
       'module' => 'inline_entity_form',
       'settings' => array(
         'fields' => array(),
+<<<<<<< HEAD
         'preview' => array(
           'enable' => 1,
           'fallback_view_mode' => 'default',
@@ -54,6 +55,10 @@ function fancy_simple_page_field_default_field_instances() {
         'type_settings' => array(
           'allow_existing' => 1,
           'clone_button' => 1,
+=======
+        'type_settings' => array(
+          'allow_existing' => 1,
+>>>>>>> adds the simple page content type
           'delete_references' => 0,
           'label_plural' => 'contents',
           'label_singular' => 'content',
