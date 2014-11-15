@@ -21,7 +21,7 @@ function fancy_config_fancy_grid_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'fancy_grid_compile_webservice';
-  $strongarm->value = 'http://sleepy-harbor-6193.herokuapp.com/app/3.3/compile';
+  $strongarm->value = 'http://sassmeister.com/app/3.3/compile';
   $export['fancy_grid_compile_webservice'] = $strongarm;
 
   $strongarm = new stdClass();
