@@ -1,0 +1,32 @@
+<?php
+
+/**
+ * @file
+ * Contains install and update functions for Fancy Content.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function fancy_migrate_install() {
+  if (module_exists('migrate')) {
+    $migrations = array(
+      'MediaImage',
+      'ContentHeadline',
+      'ContentImage',
+      'ContentMap',
+      'ContentRichText',
+      'ContentText',
+      'Section',
+      'Page',
+    );
+
+    // Register all migrations.
+    migrate_get_module_apis(TRUE);
+
+    foreach ($migrations as $migration_name) {
+      $migration = Migration::getInstance($migration_name);
+      $migration->processImport();
+    }
+  }
+}
