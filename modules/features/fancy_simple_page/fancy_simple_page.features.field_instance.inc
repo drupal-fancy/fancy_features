@@ -53,6 +53,7 @@ function fancy_simple_page_field_default_field_instances() {
         ),
         'type_settings' => array(
           'allow_existing' => 1,
+          'clone_button' => 1,
           'delete_references' => 0,
           'label_plural' => 'contents',
           'label_singular' => 'content',
