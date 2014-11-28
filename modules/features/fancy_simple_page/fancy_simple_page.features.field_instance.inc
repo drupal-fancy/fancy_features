@@ -46,6 +46,11 @@ function fancy_simple_page_field_default_field_instances() {
       'module' => 'inline_entity_form',
       'settings' => array(
         'fields' => array(),
+        'preview' => array(
+          'enable' => 1,
+          'fallback_view_mode' => 'default',
+          'view_mode' => 'inline_entity_form_preview',
+        ),
         'type_settings' => array(
           'allow_existing' => 1,
           'delete_references' => 0,
