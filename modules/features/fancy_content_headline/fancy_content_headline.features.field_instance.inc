@@ -65,6 +65,12 @@ function fancy_content_headline_field_default_field_instances() {
           'css' => '.content-[fancy_content:id] {
   color: [field-value:value];
 }',
+          'css_selector' => 'body',
+          'important' => 0,
+          'media_query' => 'all',
+          'prefix' => '',
+          'property' => 'height',
+          'suffix' => '',
         ),
         'type' => 'css_property_formatter',
         'weight' => 1,
@@ -87,7 +93,7 @@ function fancy_content_headline_field_default_field_instances() {
       'active' => 0,
       'module' => 'color_field',
       'settings' => array(),
-      'type' => 'color_field_spectrum_widget',
+      'type' => 'color_field_default_widget',
       'weight' => 2,
     ),
   );

@@ -52,9 +52,9 @@ function fancy_page_field_default_field_instances() {
           'view_mode' => 'inline_entity_form_preview',
         ),
         'type_settings' => array(
-          'allow_existing' => 1,
+          'allow_existing' => 0,
           'clone_button' => 1,
-          'delete_references' => 0,
+          'delete_references' => 1,
           'label_plural' => 'sections',
           'label_singular' => 'section',
           'match_operator' => 'CONTAINS',

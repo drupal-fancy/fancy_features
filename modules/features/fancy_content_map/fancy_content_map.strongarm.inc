@@ -14,7 +14,7 @@ function fancy_content_map_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'auto_entitylabel_fancy_content_map';
-  $strongarm->value = '2';
+  $strongarm->value = '1';
   $export['auto_entitylabel_fancy_content_map'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -180,7 +180,7 @@ function fancy_content_map_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'gmap_marker_file';
-  $strongarm->value = '1';
+  $strongarm->value = '5';
   $export['gmap_marker_file'] = $strongarm;
 
   $strongarm = new stdClass();
