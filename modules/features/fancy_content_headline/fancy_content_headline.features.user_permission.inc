@@ -15,8 +15,6 @@ function fancy_content_headline_user_default_permissions() {
     'name' => 'eck view fancy_content headline entities',
     'roles' => array(
       'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
-      'authenticated user' => 'authenticated user',
     ),
     'module' => 'eck',
   );
