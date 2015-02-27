@@ -21,7 +21,7 @@ function fancy_section_responsive_field_default_field_instances() {
         'module' => 'entityreference',
         'settings' => array(
           'links' => 0,
-          'view_mode' => 'default',
+          'view_mode' => 'view_mode_selector',
         ),
         'type' => 'entityreference_entity_view',
         'weight' => 0,
@@ -31,7 +31,7 @@ function fancy_section_responsive_field_default_field_instances() {
         'module' => 'entityreference',
         'settings' => array(
           'links' => 0,
-          'view_mode' => 'default',
+          'view_mode' => 'view_mode_selector',
         ),
         'type' => 'entityreference_entity_view',
         'weight' => 0,
@@ -41,7 +41,7 @@ function fancy_section_responsive_field_default_field_instances() {
         'module' => 'entityreference',
         'settings' => array(
           'links' => 0,
-          'view_mode' => 'default',
+          'view_mode' => 'view_mode_selector',
         ),
         'type' => 'entityreference_entity_view',
         'weight' => 0,
@@ -51,7 +51,7 @@ function fancy_section_responsive_field_default_field_instances() {
         'module' => 'entityreference',
         'settings' => array(
           'links' => 0,
-          'view_mode' => 'default',
+          'view_mode' => 'view_mode_selector',
         ),
         'type' => 'entityreference_entity_view',
         'weight' => 0,
@@ -66,12 +66,22 @@ function fancy_section_responsive_field_default_field_instances() {
         'type' => 'entityreference_entity_view',
         'weight' => 0,
       ),
+      'two_column_stacked' => array(
+        'label' => 'hidden',
+        'module' => 'entityreference',
+        'settings' => array(
+          'links' => 0,
+          'view_mode' => 'view_mode_selector',
+        ),
+        'type' => 'entityreference_entity_view',
+        'weight' => 0,
+      ),
       'view_mode_selector' => array(
         'label' => 'hidden',
         'module' => 'entityreference',
         'settings' => array(
           'links' => 0,
-          'view_mode' => 'default',
+          'view_mode' => 'view_mode_selector',
         ),
         'type' => 'entityreference_entity_view',
         'weight' => 0,
@@ -91,12 +101,13 @@ function fancy_section_responsive_field_default_field_instances() {
       'settings' => array(
         'fields' => array(),
         'preview' => array(
-          'enable' => 0,
+          'enable' => 1,
           'fallback_view_mode' => 'default',
           'view_mode' => 'inline_entity_form_preview',
         ),
         'type_settings' => array(
           'allow_existing' => 1,
+          'clone_button' => 0,
           'delete_references' => 0,
           'label_plural' => 'entities',
           'label_singular' => 'entity',
@@ -150,6 +161,12 @@ function fancy_section_responsive_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 1,
       ),
+      'two_column_stacked' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 5,
+      ),
       'view_mode_selector' => array(
         'label' => 'above',
         'settings' => array(),
@@ -163,56 +180,12 @@ function fancy_section_responsive_field_default_field_instances() {
     'label' => 'View mode',
     'required' => 1,
     'settings' => array(
+      'number_placeholders' => FALSE,
       'user_register_form' => FALSE,
       'view_modes' => array(
         'default' => array(
           'enable' => 1,
           'hide_title' => 1,
-          'icon' => 0,
-        ),
-        'fancy_ds_2' => array(
-          'enable' => 0,
-          'hide_title' => 1,
-          'icon' => 0,
-        ),
-        'fancy_ds_2_fluid' => array(
-          'enable' => 0,
-          'hide_title' => 0,
-          'icon' => 0,
-        ),
-        'fancy_ds_2_stack' => array(
-          'enable' => 0,
-          'hide_title' => 0,
-          'icon' => 0,
-        ),
-        'fancy_ds_2_stack_fluid' => array(
-          'enable' => 0,
-          'hide_title' => 0,
-          'icon' => 0,
-        ),
-        'fancy_ds_3' => array(
-          'enable' => 0,
-          'hide_title' => 0,
-          'icon' => 0,
-        ),
-        'fancy_ds_3_stack' => array(
-          'enable' => 0,
-          'hide_title' => 0,
-          'icon' => 0,
-        ),
-        'fancy_ds_3_stack_fluid' => array(
-          'enable' => 0,
-          'hide_title' => 0,
-          'icon' => 0,
-        ),
-        'fancy_ds_3_weighted' => array(
-          'enable' => 0,
-          'hide_title' => 0,
-          'icon' => 0,
-        ),
-        'fancy_ds_4' => array(
-          'enable' => 0,
-          'hide_title' => 0,
           'icon' => 0,
         ),
         'fancy_grid_four_column' => array(
@@ -230,6 +203,11 @@ function fancy_section_responsive_field_default_field_instances() {
           'hide_title' => 1,
           'icon' => 0,
         ),
+        'full' => array(
+          'enable' => 0,
+          'hide_title' => 0,
+          'icon' => 0,
+        ),
         'inline_entity_form_preview' => array(
           'enable' => 0,
           'hide_title' => 0,
@@ -240,8 +218,8 @@ function fancy_section_responsive_field_default_field_instances() {
           'hide_title' => 0,
           'icon' => 0,
         ),
-        'token' => array(
-          'enable' => 0,
+        'two_column_stacked' => array(
+          'enable' => 1,
           'hide_title' => 0,
           'icon' => 0,
         ),

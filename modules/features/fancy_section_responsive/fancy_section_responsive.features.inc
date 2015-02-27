@@ -26,6 +26,7 @@ function fancy_section_responsive_eck_bundle_info() {
       'entity_type' => 'fancy_section',
       'name' => 'responsive',
       'label' => 'Responsive',
+      'config' => array(),
     ),
   );
   return $items;

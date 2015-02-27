@@ -44,13 +44,18 @@ function fancy_section_responsive_ds_layout_settings_info() {
         'is_wrapper' => 1,
         'extra_wrapper' => 0,
         'layouts' => array(
-          'mobile' => array(
-            'position' => '1|12',
+          'custom.user.mobile' => array(
+            'position' => 'none',
             'linebreak' => 0,
             'hidden' => 0,
           ),
-          'desktop' => array(
-            'position' => '1|12',
+          'custom.user.tablet' => array(
+            'position' => 'none',
+            'linebreak' => 0,
+            'hidden' => 0,
+          ),
+          'custom.user.desktop' => array(
+            'position' => 'none',
             'linebreak' => 0,
             'hidden' => 0,
           ),
@@ -64,12 +69,17 @@ function fancy_section_responsive_ds_layout_settings_info() {
           'is_wrapper' => 0,
           'extra_wrapper' => 0,
           'layouts' => array(
-            'mobile' => array(
+            'custom.user.mobile' => array(
               'position' => '1|12',
               'linebreak' => 0,
               'hidden' => 0,
             ),
-            'desktop' => array(
+            'custom.user.tablet' => array(
+              'position' => '1|12',
+              'linebreak' => 0,
+              'hidden' => 0,
+            ),
+            'custom.user.desktop' => array(
               'position' => '1|12',
               'linebreak' => 0,
               'hidden' => 0,
@@ -130,13 +140,18 @@ function fancy_section_responsive_ds_layout_settings_info() {
         'is_wrapper' => 1,
         'extra_wrapper' => 0,
         'layouts' => array(
-          'mobile' => array(
-            'position' => '1|12',
+          'custom.user.mobile' => array(
+            'position' => 'none',
             'linebreak' => 0,
             'hidden' => 0,
           ),
-          'desktop' => array(
-            'position' => '1|12',
+          'custom.user.tablet' => array(
+            'position' => 'none',
+            'linebreak' => 0,
+            'hidden' => 0,
+          ),
+          'custom.user.desktop' => array(
+            'position' => 'none',
             'linebreak' => 0,
             'hidden' => 0,
           ),
@@ -150,12 +165,17 @@ function fancy_section_responsive_ds_layout_settings_info() {
           'is_wrapper' => 0,
           'extra_wrapper' => 0,
           'layouts' => array(
-            'mobile' => array(
-              'position' => '1|12',
+            'custom.user.mobile' => array(
+              'position' => '1|6',
               'linebreak' => 0,
               'hidden' => 0,
             ),
-            'desktop' => array(
+            'custom.user.tablet' => array(
+              'position' => '1|3',
+              'linebreak' => 0,
+              'hidden' => 0,
+            ),
+            'custom.user.desktop' => array(
               'position' => '1|3',
               'linebreak' => 0,
               'hidden' => 0,
@@ -169,12 +189,17 @@ function fancy_section_responsive_ds_layout_settings_info() {
           'is_wrapper' => 0,
           'extra_wrapper' => 0,
           'layouts' => array(
-            'mobile' => array(
-              'position' => '1|12',
-              'linebreak' => 1,
+            'custom.user.mobile' => array(
+              'position' => '7|6',
+              'linebreak' => 0,
               'hidden' => 0,
             ),
-            'desktop' => array(
+            'custom.user.tablet' => array(
+              'position' => '4|3',
+              'linebreak' => 0,
+              'hidden' => 0,
+            ),
+            'custom.user.desktop' => array(
               'position' => '4|3',
               'linebreak' => 0,
               'hidden' => 0,
@@ -188,12 +213,17 @@ function fancy_section_responsive_ds_layout_settings_info() {
           'is_wrapper' => 0,
           'extra_wrapper' => 0,
           'layouts' => array(
-            'mobile' => array(
-              'position' => '1|12',
+            'custom.user.mobile' => array(
+              'position' => '1|6',
               'linebreak' => 1,
               'hidden' => 0,
             ),
-            'desktop' => array(
+            'custom.user.tablet' => array(
+              'position' => '7|3',
+              'linebreak' => 0,
+              'hidden' => 0,
+            ),
+            'custom.user.desktop' => array(
               'position' => '7|3',
               'linebreak' => 0,
               'hidden' => 0,
@@ -207,12 +237,17 @@ function fancy_section_responsive_ds_layout_settings_info() {
           'is_wrapper' => 0,
           'extra_wrapper' => 0,
           'layouts' => array(
-            'mobile' => array(
-              'position' => '1|12',
-              'linebreak' => 1,
+            'custom.user.mobile' => array(
+              'position' => '7|6',
+              'linebreak' => 0,
               'hidden' => 0,
             ),
-            'desktop' => array(
+            'custom.user.tablet' => array(
+              'position' => '10|3',
+              'linebreak' => 0,
+              'hidden' => 0,
+            ),
+            'custom.user.desktop' => array(
               'position' => '10|3',
               'linebreak' => 0,
               'hidden' => 0,
@@ -268,13 +303,18 @@ function fancy_section_responsive_ds_layout_settings_info() {
         'is_wrapper' => 1,
         'extra_wrapper' => 0,
         'layouts' => array(
-          'mobile' => array(
-            'position' => '1|12',
+          'custom.user.mobile' => array(
+            'position' => 'none',
             'linebreak' => 0,
             'hidden' => 0,
           ),
-          'desktop' => array(
-            'position' => '1|12',
+          'custom.user.tablet' => array(
+            'position' => 'none',
+            'linebreak' => 0,
+            'hidden' => 0,
+          ),
+          'custom.user.desktop' => array(
+            'position' => 'none',
             'linebreak' => 0,
             'hidden' => 0,
           ),
@@ -288,12 +328,17 @@ function fancy_section_responsive_ds_layout_settings_info() {
           'is_wrapper' => 0,
           'extra_wrapper' => 0,
           'layouts' => array(
-            'mobile' => array(
+            'custom.user.mobile' => array(
               'position' => '1|12',
               'linebreak' => 0,
               'hidden' => 0,
             ),
-            'desktop' => array(
+            'custom.user.tablet' => array(
+              'position' => '1|4',
+              'linebreak' => 0,
+              'hidden' => 0,
+            ),
+            'custom.user.desktop' => array(
               'position' => '1|4',
               'linebreak' => 0,
               'hidden' => 0,
@@ -307,12 +352,17 @@ function fancy_section_responsive_ds_layout_settings_info() {
           'is_wrapper' => 0,
           'extra_wrapper' => 0,
           'layouts' => array(
-            'mobile' => array(
+            'custom.user.mobile' => array(
               'position' => '1|12',
-              'linebreak' => 1,
+              'linebreak' => 0,
               'hidden' => 0,
             ),
-            'desktop' => array(
+            'custom.user.tablet' => array(
+              'position' => '5|4',
+              'linebreak' => 0,
+              'hidden' => 0,
+            ),
+            'custom.user.desktop' => array(
               'position' => '5|4',
               'linebreak' => 0,
               'hidden' => 0,
@@ -326,12 +376,17 @@ function fancy_section_responsive_ds_layout_settings_info() {
           'is_wrapper' => 0,
           'extra_wrapper' => 0,
           'layouts' => array(
-            'mobile' => array(
+            'custom.user.mobile' => array(
               'position' => '1|12',
-              'linebreak' => 1,
+              'linebreak' => 0,
               'hidden' => 0,
             ),
-            'desktop' => array(
+            'custom.user.tablet' => array(
+              'position' => '9|4',
+              'linebreak' => 0,
+              'hidden' => 0,
+            ),
+            'custom.user.desktop' => array(
               'position' => '9|4',
               'linebreak' => 0,
               'hidden' => 0,
@@ -382,13 +437,18 @@ function fancy_section_responsive_ds_layout_settings_info() {
         'is_wrapper' => 1,
         'extra_wrapper' => 0,
         'layouts' => array(
-          'mobile' => array(
-            'position' => '1|12',
+          'custom.user.mobile' => array(
+            'position' => 'none',
             'linebreak' => 0,
             'hidden' => 0,
           ),
-          'desktop' => array(
-            'position' => '1|12',
+          'custom.user.tablet' => array(
+            'position' => 'none',
+            'linebreak' => 0,
+            'hidden' => 0,
+          ),
+          'custom.user.desktop' => array(
+            'position' => 'none',
             'linebreak' => 0,
             'hidden' => 0,
           ),
@@ -402,12 +462,17 @@ function fancy_section_responsive_ds_layout_settings_info() {
           'is_wrapper' => 0,
           'extra_wrapper' => 0,
           'layouts' => array(
-            'mobile' => array(
+            'custom.user.mobile' => array(
               'position' => '1|12',
               'linebreak' => 0,
               'hidden' => 0,
             ),
-            'desktop' => array(
+            'custom.user.tablet' => array(
+              'position' => '1|6',
+              'linebreak' => 0,
+              'hidden' => 0,
+            ),
+            'custom.user.desktop' => array(
               'position' => '1|6',
               'linebreak' => 0,
               'hidden' => 0,
@@ -421,12 +486,17 @@ function fancy_section_responsive_ds_layout_settings_info() {
           'is_wrapper' => 0,
           'extra_wrapper' => 0,
           'layouts' => array(
-            'mobile' => array(
+            'custom.user.mobile' => array(
               'position' => '1|12',
-              'linebreak' => 1,
+              'linebreak' => 0,
               'hidden' => 0,
             ),
-            'desktop' => array(
+            'custom.user.tablet' => array(
+              'position' => '7|6',
+              'linebreak' => 0,
+              'hidden' => 0,
+            ),
+            'custom.user.desktop' => array(
               'position' => '7|6',
               'linebreak' => 0,
               'hidden' => 0,

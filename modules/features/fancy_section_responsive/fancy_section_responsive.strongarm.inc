@@ -85,6 +85,24 @@ function fancy_section_responsive_strongarm() {
       'fancy_ds_4' => array(
         'custom_settings' => FALSE,
       ),
+      'full' => array(
+        'custom_settings' => FALSE,
+      ),
+      'two_column_stacked' => array(
+        'custom_settings' => TRUE,
+      ),
+      'fancy_grid_3_columns' => array(
+        'custom_settings' => FALSE,
+      ),
+      'fancy_grid_4_columns' => array(
+        'custom_settings' => FALSE,
+      ),
+      'fancy_grid_6_columns' => array(
+        'custom_settings' => FALSE,
+      ),
+      'fancy_grid_12_columns' => array(
+        'custom_settings' => FALSE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(),
@@ -106,6 +124,14 @@ function fancy_section_responsive_strongarm() {
             'weight' => '21',
             'visible' => FALSE,
           ),
+          'two_column_stacked' => array(
+            'weight' => '1',
+            'visible' => TRUE,
+          ),
+          'view_mode_selector' => array(
+            'weight' => '21',
+            'visible' => TRUE,
+          ),
         ),
         'field_fancy_rel_contents_2' => array(
           'fancy_grid_four_column' => array(
@@ -124,6 +150,14 @@ function fancy_section_responsive_strongarm() {
             'weight' => '22',
             'visible' => FALSE,
           ),
+          'two_column_stacked' => array(
+            'weight' => '2',
+            'visible' => TRUE,
+          ),
+          'view_mode_selector' => array(
+            'weight' => '22',
+            'visible' => TRUE,
+          ),
         ),
         'field_fancy_rel_contents_3' => array(
           'fancy_grid_four_column' => array(
@@ -141,6 +175,14 @@ function fancy_section_responsive_strongarm() {
           'default' => array(
             'weight' => '23',
             'visible' => FALSE,
+          ),
+          'two_column_stacked' => array(
+            'weight' => '3',
+            'visible' => TRUE,
+          ),
+          'view_mode_selector' => array(
+            'weight' => '23',
+            'visible' => TRUE,
           ),
         ),
       ),
