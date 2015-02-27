@@ -510,32 +510,6 @@ function fancy_section_responsive_ds_layout_settings_info() {
 
   $ds_layout = new stdClass();
   $ds_layout->api_version = 1;
-  $ds_layout->id = 'fancy_section|responsive|inline_entity_form_preview';
-  $ds_layout->entity_type = 'fancy_section';
-  $ds_layout->bundle = 'responsive';
-  $ds_layout->view_mode = 'inline_entity_form_preview';
-  $ds_layout->layout = 'fancy_grid_one';
-  $ds_layout->settings = array(
-    'regions' => array(
-      'one' => array(
-        0 => 'field_fancy_rel_contents',
-      ),
-    ),
-    'fields' => array(
-      'field_fancy_rel_contents' => 'one',
-    ),
-    'classes' => array(),
-    'wrappers' => array(),
-    'layout_wrapper' => 'div',
-    'layout_attributes' => '',
-    'layout_attributes_merge' => TRUE,
-    'layout_link_attribute' => FALSE,
-    'layout_link_custom' => '',
-  );
-  $export['fancy_section|responsive|inline_entity_form_preview'] = $ds_layout;
-
-  $ds_layout = new stdClass();
-  $ds_layout->api_version = 1;
   $ds_layout->id = 'fancy_section|responsive|fancy_grid_two_column_stacked';
   $ds_layout->entity_type = 'fancy_section';
   $ds_layout->bundle = 'responsive';
@@ -647,6 +621,32 @@ function fancy_section_responsive_ds_layout_settings_info() {
     ),
   );
   $export['fancy_section|responsive|fancy_grid_two_column_stacked'] = $ds_layout;
+
+  $ds_layout = new stdClass();
+  $ds_layout->api_version = 1;
+  $ds_layout->id = 'fancy_section|responsive|inline_entity_form_preview';
+  $ds_layout->entity_type = 'fancy_section';
+  $ds_layout->bundle = 'responsive';
+  $ds_layout->view_mode = 'inline_entity_form_preview';
+  $ds_layout->layout = 'fancy_grid_one';
+  $ds_layout->settings = array(
+    'regions' => array(
+      'one' => array(
+        0 => 'field_fancy_rel_contents',
+      ),
+    ),
+    'fields' => array(
+      'field_fancy_rel_contents' => 'one',
+    ),
+    'classes' => array(),
+    'wrappers' => array(),
+    'layout_wrapper' => 'div',
+    'layout_attributes' => '',
+    'layout_attributes_merge' => TRUE,
+    'layout_link_attribute' => FALSE,
+    'layout_link_custom' => '',
+  );
+  $export['fancy_section|responsive|inline_entity_form_preview'] = $ds_layout;
 
   return $export;
 }

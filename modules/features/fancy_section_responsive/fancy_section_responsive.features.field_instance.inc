@@ -56,22 +56,22 @@ function fancy_section_responsive_field_default_field_instances() {
         'type' => 'entityreference_entity_view',
         'weight' => 0,
       ),
-      'inline_entity_form_preview' => array(
-        'label' => 'hidden',
-        'module' => 'entityreference',
-        'settings' => array(
-          'links' => 0,
-          'view_mode' => 'inline_entity_form_preview',
-        ),
-        'type' => 'entityreference_entity_view',
-        'weight' => 0,
-      ),
       'fancy_grid_two_column_stacked' => array(
         'label' => 'hidden',
         'module' => 'entityreference',
         'settings' => array(
           'links' => 0,
           'view_mode' => 'view_mode_selector',
+        ),
+        'type' => 'entityreference_entity_view',
+        'weight' => 0,
+      ),
+      'inline_entity_form_preview' => array(
+        'label' => 'hidden',
+        'module' => 'entityreference',
+        'settings' => array(
+          'links' => 0,
+          'view_mode' => 'inline_entity_form_preview',
         ),
         'type' => 'entityreference_entity_view',
         'weight' => 0,
@@ -155,17 +155,17 @@ function fancy_section_responsive_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 2,
       ),
-      'inline_entity_form_preview' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 1,
-      ),
       'fancy_grid_two_column_stacked' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
         'weight' => 5,
+      ),
+      'inline_entity_form_preview' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 1,
       ),
       'view_mode_selector' => array(
         'label' => 'above',
@@ -203,6 +203,11 @@ function fancy_section_responsive_field_default_field_instances() {
           'hide_title' => 1,
           'icon' => 0,
         ),
+        'fancy_grid_two_column_stacked' => array(
+          'enable' => 1,
+          'hide_title' => 0,
+          'icon' => 0,
+        ),
         'full' => array(
           'enable' => 0,
           'hide_title' => 0,
@@ -215,11 +220,6 @@ function fancy_section_responsive_field_default_field_instances() {
         ),
         'teaser' => array(
           'enable' => 0,
-          'hide_title' => 0,
-          'icon' => 0,
-        ),
-        'fancy_grid_two_column_stacked' => array(
-          'enable' => 1,
           'hide_title' => 0,
           'icon' => 0,
         ),
