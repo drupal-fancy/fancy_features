@@ -1,6 +1,7 @@
 name = Fancy Config Fancy Grid
 core = 7.x
 package = Fancy Kickstart
+dependencies[] = breakpoints
 dependencies[] = ctools
 dependencies[] = fancy_grid
 dependencies[] = strongarm
