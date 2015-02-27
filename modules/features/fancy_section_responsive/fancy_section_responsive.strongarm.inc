@@ -88,7 +88,7 @@ function fancy_section_responsive_strongarm() {
       'full' => array(
         'custom_settings' => FALSE,
       ),
-      'two_column_stacked' => array(
+      'fancy_grid_two_column_stacked' => array(
         'custom_settings' => TRUE,
       ),
       'fancy_grid_3_columns' => array(
@@ -124,7 +124,7 @@ function fancy_section_responsive_strongarm() {
             'weight' => '21',
             'visible' => FALSE,
           ),
-          'two_column_stacked' => array(
+          'fancy_grid_two_column_stacked' => array(
             'weight' => '1',
             'visible' => TRUE,
           ),
@@ -150,7 +150,7 @@ function fancy_section_responsive_strongarm() {
             'weight' => '22',
             'visible' => FALSE,
           ),
-          'two_column_stacked' => array(
+          'fancy_grid_two_column_stacked' => array(
             'weight' => '2',
             'visible' => TRUE,
           ),
@@ -176,7 +176,7 @@ function fancy_section_responsive_strongarm() {
             'weight' => '23',
             'visible' => FALSE,
           ),
-          'two_column_stacked' => array(
+          'fancy_grid_two_column_stacked' => array(
             'weight' => '3',
             'visible' => TRUE,
           ),

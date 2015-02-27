@@ -66,7 +66,7 @@ function fancy_section_responsive_field_default_field_instances() {
         'type' => 'entityreference_entity_view',
         'weight' => 0,
       ),
-      'two_column_stacked' => array(
+      'fancy_grid_two_column_stacked' => array(
         'label' => 'hidden',
         'module' => 'entityreference',
         'settings' => array(
@@ -161,7 +161,7 @@ function fancy_section_responsive_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 1,
       ),
-      'two_column_stacked' => array(
+      'fancy_grid_two_column_stacked' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
@@ -218,7 +218,7 @@ function fancy_section_responsive_field_default_field_instances() {
           'hide_title' => 0,
           'icon' => 0,
         ),
-        'two_column_stacked' => array(
+        'fancy_grid_two_column_stacked' => array(
           'enable' => 1,
           'hide_title' => 0,
           'icon' => 0,
