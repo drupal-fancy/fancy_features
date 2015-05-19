@@ -48,8 +48,8 @@ function fancy_page_field_default_field_instances() {
         'fields' => array(),
         'preview' => array(
           'enable' => 1,
-          'fallback_view_mode' => 'default',
-          'view_mode' => 'inline_entity_form_preview',
+          'fallback_view_mode' => 'inline_entity_form_preview',
+          'view_mode' => 'view_mode_selector',
         ),
         'type_settings' => array(
           'allow_existing' => 0,
