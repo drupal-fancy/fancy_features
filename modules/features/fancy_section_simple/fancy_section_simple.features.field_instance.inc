@@ -229,6 +229,11 @@ function fancy_section_simple_field_default_field_instances() {
       'module' => 'inline_entity_form',
       'settings' => array(
         'fields' => array(),
+        'preview' => array(
+          'enable' => 0,
+          'fallback_view_mode' => 'default',
+          'view_mode' => 'inline_entity_form_preview',
+        ),
         'type_settings' => array(
           'allow_existing' => 1,
           'delete_references' => 0,
@@ -333,6 +338,7 @@ function fancy_section_simple_field_default_field_instances() {
     'label' => 'View mode',
     'required' => 1,
     'settings' => array(
+      'number_placeholders' => FALSE,
       'user_register_form' => FALSE,
       'view_modes' => array(
         'default' => array(
